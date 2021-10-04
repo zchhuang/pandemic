@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true,
+    "ecmaFeatures": { "jsx": true },
+    "ecmaVersion": 2017
+  },
+  "env": { "es6": true, "browser": true, "node": true, "mocha": true },
+  "plugins": ["meteor", "react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:meteor/recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": { "import/resolver": "meteor", "react": { "version": "detect" } },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-no-bind": [
+      2,
+      { "allowArrowFunctions": true, "allowBind": false }
+    ],
+    "max-len": [0, { "code": 100 }],
+    "import/no-absolute-path": [0],
+    "meteor/audit-argument-checks": [0],
+    "indent": ["error", 2],
+    "switch-colon-spacing": [0],
+    "no-invalid-this": [0],
+    "new-cap": [1],
+    "eqeqeq": ["error", "smart"],
+    "no-trailing-spaces": [2, { "skipBlankLines": true }]
+  },
+  "overrides": [{ "files": ["*.js", "*.jsx"] }]
+}

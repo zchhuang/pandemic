@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap%27');
+
+.status-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.status-defeat {
+  background-color: #ffcccb !important;
+}
+
+.status-victory {
+  background-color: #98fb98 !important;
+}
+
+.status-not-found {
+  background-color: #d2d2d2 !important;
+}
+
+.status-description-text {
+  font-size: 20px;
+}
+
+.status-options {
+  top: 30%;
+  background-color: #e7e7e7 !important;
+  color: black;
+  border-radius: 15px;
+  height: 400px !important;
+  width: 700px !important;
+  position: relative;
+  font-family: 'Lato';
+  font-size: 30px;
+  margin: auto;
+}
+
+.status-feedback {
+  margin-top: 20%;
+  font-size: 20px;
+}
+.status-content {
+  width: 80%;
+  margin: auto;
+  top: 20%;
+  position: relative;
+}
+
+.status-space {
+  position: relative;
+  height: 45px;
+}
+
+.status-buttons {
+  background-color: #c4c4c4 !important;
+  border-radius: 5px;
+  width: 50%;
+  font-family: 'Lato' !important;
+  font-size: 20px !important;
+}

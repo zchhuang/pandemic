@@ -1,0 +1,10 @@
+export const HIGHLIGHT_CITIES = 0;
+export const UNHIGHLIGHT_ALL_CITIES = 1;
+export const SET_GAME_OBJECT = 2;
+export const SET_PLAYERS = 3;
+export const SET_PLAYER_OBJECT = 4;
+export const SET_CITY_ONCLICK = 5;
+export const RESET_CITY_ONCLICK = 6;
+export const START_ACTION = 7;
+export const END_ACTION = 8;
+export const SET_DISCARD_CARD = 9;
